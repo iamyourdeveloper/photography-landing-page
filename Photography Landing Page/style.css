@@ -138,11 +138,6 @@ body {
     visibility: hidden;
 }
 
-.form-control small {
-    visibility: hidden;
-    display: none;
-}
-
 .form-control.error small {
     color: #fc5340;
     display: block;
@@ -155,6 +150,7 @@ body {
 
 .form-control.success small {
     visibility: hidden;
+    display: none;
 }
 
 button {
