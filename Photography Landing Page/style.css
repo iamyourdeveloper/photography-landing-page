@@ -139,9 +139,8 @@ body {
 }
 
 .form-control.error small {
-    color: #fc5340;
+    color: #ff6452;
     display: block;
-    visibility: visible;
     font-family: 'Lato', sans-serif;
     position: relative;
     top: 0;
@@ -149,8 +148,12 @@ body {
 }
 
 .form-control.success small {
-    visibility: hidden;
-    display: none;
+    color: #2ecc71;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    top: .12m;
+    left: 1.3em;
+    display: block;
 }
 
 button {
@@ -499,9 +502,7 @@ button:hover {
     }
 
     .form-control.error small {
-        color: #fc5340;
         display: block;
-        visibility: visible;
         font-family: 'Lato', sans-serif;
         position: relative;
         top: -35px;
@@ -509,8 +510,12 @@ button:hover {
     }
 
     .form-control.success small {
-        visibility: hidden;
-        display: none;
+        font-family: 'Lato', sans-serif;
+        position: relative;
+        top: -35px;
+        left: 17.3px;
+        width: 155px;
+        display: block;
     }
     
     .email {
