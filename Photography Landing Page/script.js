@@ -23,7 +23,7 @@ setInterval(function(){
         } else if(!isEmail(emailValue)) {
             setErrorFor(email, 'Email is not valid');
         } else {
-            setSuccessFor(email);
+            setSuccessFor(email, 'Thank you for subscribing!');
         }
     }
 
@@ -36,8 +36,12 @@ setInterval(function(){
         formControl.className = 'form-control error'
     }
 
-    function setSuccessFor(input) {
+    function setSuccessFor(input, message) {
         const formControl = input.parentElement;
+        const small = formControl.querySelector('small');
+
+        small.innerText = message;
+
         formControl.className = 'form-control success';
     }
 
