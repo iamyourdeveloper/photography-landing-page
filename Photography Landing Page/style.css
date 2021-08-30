@@ -149,11 +149,11 @@ body {
 
 .form-control.success small {
     color: #2ecc71;
+    display: block;
     font-family: 'Lato', sans-serif;
     position: relative;
     top: .12m;
     left: 1.3em;
-    display: block;
 }
 
 button {
