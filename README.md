@@ -1,4 +1,4 @@
 # photography-landing-page
 
-link to hosted example:
+Link to hosted example:
 https://photography-landing-page-desktop.netlify.app/
